@@ -1,0 +1,29 @@
+AI-Assistant/
+├── .github/
+│   └── workflows/
+│       └── ci-cd.yml
+├── src/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── assistant.py
+│   │   ├── code_modifier.py
+│   │   ├── app_controller.py
+│   │   └── utils/
+│   │       ├── __init__.py
+│   │       ├── animation.py
+│   │       ├── internet.py
+│   │       └── voice_engine.py
+│   ├── requirements.txt
+│   └── Dockerfile
+├── data/
+│   ├── training/
+│   └── knowledge/
+├── config/
+│   └── settings.json
+├── tests/
+│   └── test_assistant.py
+├── .gitignore
+├── LICENSE
+├── Makefile
+└── README.md
